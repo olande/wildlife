@@ -13,6 +13,46 @@ h6 {
   color: #000000;
 }
 
+
+
+
+.section-a {
+  position: relative;
+  padding: 60px 0;
+}
+
+.a-img-box {
+  position: relative;
+  overflow: hidden; /* Ensures overlay text stays within image bounds */
+}
+
+.a-img-box img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text span {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds a shadow for better readability */
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.3); /* Slight background for text area */
+  border-radius: 5px;
+}
 a {
   color: #000000;
   transition: all .5s ease;
